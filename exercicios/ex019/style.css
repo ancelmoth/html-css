@@ -1,0 +1,32 @@
+
+
+/* 
+tudo que em html é id = em css é # so pode um elemento
+em html é class = em CSS é "." ponto
+OBS: NAO pode ter dois ids no mesmo documento html. Para isso, vc utiliza CLASS(pode varios elementos)
+*/
+body{
+    background-color: rgb(240, 248, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+
+    color: red;
+}
+
+#css{
+    color: rgb(16, 16, 243);
+    text-align: justify;
+    font-weight: normal;
+}
+
+.basico{
+    color: blue;
+}
+
+
+#chama{
+    color: rgb(226, 49, 43);
+    text-decoration: underline;
+}
