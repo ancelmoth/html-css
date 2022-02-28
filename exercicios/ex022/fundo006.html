@@ -8,14 +8,17 @@
 
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-position: center center;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat:  no-repeat;
             background-size: cover;
-            background-attachment: fixed; /* attachment serve para deixar a imagem fixa na tela. Scroll a imagem rola junto com a tela*/
-            
+            background-attachment: fixed;*/ /* attachment serve para deixar a imagem fixa na tela. Scroll a imagem rola junto com a tela*/
+            /* Shorthand - background
+            sequencia de passos a serem seguidas: color, image, position, repeat, [size] que eh mais complexo ATUALMENTE NAO FUNCIONA. TEM QUE COLOCAR FORA DA SHORTHAND */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
