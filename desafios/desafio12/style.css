@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Ubuntu:ital,wght@1,300&display=swap');
-
 *{
     margin: 0px;
     padding: 0px;
@@ -9,58 +7,19 @@
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(7, 139, 139);
 }
 
-    header{
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
+header{
 
-    header > h1{
-        padding-top: 50px;
-        font-variant: small-caps;
-    }
-
-    header > p{
-        padding-bottom: 50px;
-    }
-    header > h1{
-        padding: 50px;
-        font-display: small-caps;
-    }
-
-    section{
-        padding-top: 10vh;
-        padding-bottom: 10px;
-    }
-
-    a{
-        color: white;
-        text-decoration: none;
-        font-weight: bolder;
-
-    }
-
-    header a:hover, footer a:hover{
-        text-decoration: underline;
-    }
-    section.normal{
-        background-color: white;
-        color: white;
-        text-align: center;
-        padding: 10px;
-    }
-
-   
-    
-
-
+    background-color: black;
 }
 
 
-}
+  
+
+
+
 
 
 
