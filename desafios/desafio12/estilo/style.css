@@ -6,7 +6,7 @@
 }
 
 html, body{
-    min-height: 98vh;
+    min-height: 100vh;
     background-color: darkgray;
 }
 
@@ -20,15 +20,10 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
 }
-
-a{
-    color: white;
-    text-decoration: none;
+header > p{
+    padding-bottom: 50px;
 }
 
-a:hover{
-    text-decoration:underline;
-}
 
 header a, footer a{
     color: white;
@@ -36,33 +31,38 @@ header a, footer a{
     font-weight: bolder;
 }
 
-header > p{
-    padding-bottom: 50px;
-}
-
-.normal{
-    background-color: white;
-    color: black;
-}
-.imagem{
-    background-color: rgb(99, 94, 94);
-    color: white;
-}
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em; /* line-height serve para da um espaço entre as letras*/
+    line-height: 2em;
     padding-left: 30px;
+
 }
 
-.imagem{
-    background-color: rgba(0, 0, 0, 0.356);
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(128, 119, 119);
+    color: white;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.26);
     width: 400px;
 }
 
 footer{
-    padding: 10px;
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
+
+
+
 }
+    
+
