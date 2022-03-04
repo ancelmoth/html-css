@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: lightgray;
+        }
+
+        table{
+            width: 600px;
+            height: 200px;
+            border-collapse: collapse; /* nessa propriedade ele deixa as linhas juntas. Já o "Separate" separa as linhas */
+            border: 2px solid black;
+           
+        }
+
+        td{
+            padding: 10px;
+            border: 2px solid rgb(82, 55, 55);
+        }
+        .vermelho{
+            color: blueviolet;
+        }
+        .amarelo{
+            color: rgb(199, 37, 25);
+            font-weight: bolder;
+            font-variant: small-caps;
+            
+        }
+        .amarelo:hover{
+            text-decoration: underline;
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--Hierarquia de tabelas (simples)
+Table = tabela
+ table row = linha de tabela
+  table header = cabeçalho de tabela
+  table data = dados de tabela-->
+
+    <table>
+       <tr> <!--Primeira linha-->
+           <td>Linha1</td>
+           <td>Linha2</td>
+           <td>Linha3</td>
+           <td>Linha4</td>
+       </tr>
+       <tr class="vermelho"> <!--Segunda linha-->
+           <td>A1</td>
+           <td>B2</td>
+           <td>C3</td>
+           <td>C4</td>
+       </tr>
+       <tr> <!--Terceira linha-->
+        <td>A1</td>
+        <td>B2</td>
+        <td>C3</td>
+        <td>C4</td>
+    </tr>
+    <tr> <!--Quarta linha-->
+        <td>A1</td>
+        <td>B2</td>
+        <td class="amarelo">C3</td>
+        <td>C4</td>
+    </tr>
+       
+
+    </table>
+    
+</body>
+</html>
