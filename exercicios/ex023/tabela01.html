@@ -16,30 +16,24 @@
         }
 
         table{
-            width: 600px;
-            height: 200px;
+            width: 400px;
+            height: 400px;
             border-collapse: collapse; /* nessa propriedade ele deixa as linhas juntas. Já o "Separate" separa as linhas */
             border: 2px solid black;
            
         }
+        .numero{
+            text-align: right;
+        }
 
         td{
+            border: 1px solid black;
             padding: 10px;
-            border: 2px solid rgb(82, 55, 55);
+            text-align: center;
+            vertical-align: middle;
         }
-        .vermelho{
-            color: blueviolet;
-        }
-        .amarelo{
-            color: rgb(199, 37, 25);
-            font-weight: bolder;
-            font-variant: small-caps;
-            
-        }
-        .amarelo:hover{
-            text-decoration: underline;
-            
-        }
+       
+       
         
 
     </style>
@@ -59,7 +53,7 @@ Table = tabela
            <td>Linha3</td>
            <td>Linha4</td>
        </tr>
-       <tr class="vermelho"> <!--Segunda linha-->
+       <tr> <!--Segunda linha-->
            <td>A1</td>
            <td>B2</td>
            <td>C3</td>
@@ -68,13 +62,13 @@ Table = tabela
        <tr> <!--Terceira linha-->
         <td>A1</td>
         <td>B2</td>
-        <td>C3</td>
+        <td class="numero">C3</td>
         <td>C4</td>
     </tr>
     <tr> <!--Quarta linha-->
         <td>A1</td>
         <td>B2</td>
-        <td class="amarelo">C3</td>
+        <td>C3</td>
         <td>C4</td>
     </tr>
        
