@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da Tabela</title>
+    <style>
+
+        table{
+            border-collapse: collapse;
+            padding: 10px;
+          
+        }
+        tr,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        table{
+            width: 400px;
+        }
+
+       
+
+     
+       
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>ESCOLA</caption>
+
+        <thead> <!--Aqui fica o cabeçalho-->
+           <tr>
+
+            <th>Area</th>
+            <th>Disciplinas</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th>Média</th>
+           
+              
+               
+
+               
+              
+           </tr>
+
+           <tbody> <!--Corpo da tabela, onde ficaram os dados TDs-->
+              <tr>
+                  <th rowspan="5" scope="colgroup">Exatas</th>
+                  <tr>
+                      <td>Matemática</td>
+                    
+                        <td>10.0</td>
+                    
+                    
+                          <td>10.0</td>
+                    
+
+                  </tr>
+                  <tr>
+                      <td>Fisica</td>
+                      <td>8.5</td>
+                      <td>7.0</td>
+                  </tr>
+                  <tr>
+                      <td>Quimica</td>
+                      <td>6.5</td>
+                      <td>8.0</td>
+                  </tr>
+                  <tr>
+                      <td>Biologia</td>
+                      <td>10.0</td>
+                      <td>10.0</td>
+                  </tr>
+                
+              </tr>
+           </tbody>
+           <tbody>
+               <tr>
+                   <th rowspan="4" scope="col">Média de Exatas</th>
+               </tr>
+              
+           </tbody>
+           <tbody>
+               <tr>
+                   <th rowspan="3" scope="colgroup">Humanas</th>
+               </tr>
+              <td>Geografia</td>
+              <tr>
+                  <td>História</td>
+              </tr>
+           </tbody>
+           <tr>
+               <th class="semlinha">Média de Humanas</th>
+               <td class="notahumana">9.6</td>
+           </tr>
+       </thead>
+    </table>
+    
+</body>
+</html>
