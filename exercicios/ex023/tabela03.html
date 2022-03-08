@@ -21,28 +21,39 @@
             padding: 10px;
     
         }
+      
 
        caption{
-            font-size: 1.3em;
-            font-weight: bolder;
-            padding: 10px;
-            background-color: red;
+           padding: 10px;
+           background-color: rgba(206, 132, 132, 0.521);
+           
+           
         }
+        tfoot{
+            background-color: rgba(167, 104, 104, 0.521)
+        }
+
+        tfoot  td{
+            background-color: rgba(0, 0, 0, 0.349);
+            color: white;
+        }
+        
 
     </style>
 </head>
 <body>
     <h1>Exercicio de Tabelas</h1>
-    <caption>Filmes Favoritos</caption>
+       
     <table>
+        <caption>Tabela de Filmes favoritos</caption> 
         <thead>
             <tr>
-                <th>Grupos</th> <!--THs sao usados para titulos. TR sao linhas de tabelas-->
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th> <!--col faz o espaçamento da linha horizontal-->
+                <th scope="col">Grupos</th> <!--THs sao usados para titulos. TR sao linhas de tabelas-->
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th> <!--col faz o espaçamento da linha horizontal-->
             </tr>
             <tr>
-                <th rowspan="3">Mulheres</th> <!--faz o espaçamento na linha vertical-->
+                <th rowspan="3" scope="colgroup">Mulheres</th> <!--faz o espaçamento na linha vertical-->
                 <td>Lorena</td>
                 <td>Homem Aranha 3</td>
                 <td>Click</td>
@@ -61,7 +72,7 @@
                 <td>Corra que a policia vem ai</td>
             </tr>
             <tr>
-                <th rowspan="2">Homens</th>
+                <th rowspan="2" scope="colgroup">Homens</th>
                 <td>Ancelmo</td>
                 <td>Furia do dragao</td>
                 <td>Falcao negro em perigo</td>
@@ -74,8 +85,14 @@
                 <td>Michael Jackson - Moonwalker</td>
 
             </tr>
+           
 
         </thead>
+
+       <tfoot>
+           <th colspan="4" scope="row">Total</th>
+           <td>1000</td>
+       </tfoot>
 
           
         <tbody>
