@@ -16,18 +16,22 @@
         }
 
         table{
-            width: 400px;
-            height: 400px;
+            width: 200px;
+            height: 200px;
             border-collapse: collapse; /* nessa propriedade ele deixa as linhas juntas. Já o "Separate" separa as linhas */
             border: 2px solid black;
-           
         }
+
+      
+           
+        
         .numero{
             text-align: right;
         }
 
         td{
-            border: 1px solid black;
+            border: 1px solid black; /* OBS: para criar bordas, é preciso usar na TD que é a que fica os dados, dai vc usa o colapse no table para ele juntar as linhas */
+
             padding: 10px;
             text-align: center;
             vertical-align: middle;
@@ -41,10 +45,10 @@
 <body>
     <h1>Minha primeira tabela</h1>
     <!--Hierarquia de tabelas (simples)
-Table = tabela
- table row = linha de tabela
-  table header = cabeçalho de tabela
-  table data = dados de tabela-->
+  Table = tabela
+     table row = linha de tabela
+         table header = cabeçalho de tabela
+            table data = dados de tabela-->
 
     <table>
        <tr> <!--Primeira linha-->
@@ -54,22 +58,22 @@ Table = tabela
            <td>Linha4</td>
        </tr>
        <tr> <!--Segunda linha-->
-           <td>A1</td>
-           <td>B2</td>
-           <td>C3</td>
-           <td>C4</td>
+           <td>Colunas</td>
+           <td>Colunas</td>
+           <td>Colunas</td>
+           <td>Colunas</td>
        </tr>
        <tr> <!--Terceira linha-->
-        <td>A1</td>
-        <td>B2</td>
-        <td class="numero">C3</td>
-        <td>C4</td>
+        <td>Colunas</td>
+        <td>Colunas</td>
+        <td>Colunas</td>
+        <td>Colunas</td>
     </tr>
     <tr> <!--Quarta linha-->
-        <td>A1</td>
-        <td>B2</td>
-        <td>C3</td>
-        <td>C4</td>
+        <td>Colunas</td>
+        <td>Colunas</td>
+        <td>Colunas</td>
+        <td>Colunas</td>
     </tr>
        
 
