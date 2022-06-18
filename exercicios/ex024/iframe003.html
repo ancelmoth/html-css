@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe003</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blue;
+            font-weight: normal;
+        }
+
+        #tela{
+            
+            width: 95vh;
+            height: 400px;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+
+        div{
+            width: 60%;
+            height: 400px;
+            overflow: auto;
+            
+        }
+
+       
+       
+    
+        ul{
+            display: flex;
+            list-style-type: none;
+            
+        }
+
+        a{
+            text-decoration: none;
+            margin: 5px;
+            color: rgb(221, 83, 83);
+        }
+        
+
+
+    </style>
+<body>
+
+    <h1 style="text-align:center ; background-color: rgb(223, 209, 209);" >Lista de Paginas</h1>
+
+    <ul>
+        <li><a href="paginas-extras/pagina-01.html" target="frame">Pagina-01</a></li>
+        <li><a href="paginas-extras/pagina-02.html" target="frame">Pagina-02</a></li>
+        <li><a href="paginas-extras/pagina-03.html" target="frame">Pagina-03</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque alias, eius omnis dolorem incidunt repudiandae maxime quibusdam quo. Vitae corrupti laudantium aliquam beatae, quasi tempore voluptates praesentium autem exercitationem sapiente!</p>
+
+      <iframe id="tela" name="frame" srcdoc ="<h1>Escolha umas das opçoes aqui em cima</h1><img src='imagem/golfinho.jpg'>">
+
+        
+      </iframe>
+    
+    
+    
+    </iframe>
+           
+
+    
+  
+</body>
+</html>
